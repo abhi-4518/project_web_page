@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1,p{
+    text-align: center;
+}
+h1{
+    font-family: "Sriracha", cursive;
+    font-size: 50px;
+}
+p{
+    font-family: "Sriracha", cursive;
+    font-size: 20px;
+}
+
+input, textarea{
+    display: block;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background: black;
+    padding: 12px 10px;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.wp{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    /*opacity: 0.6
+    height: 100%;*/
+}
+.submitForm{
+    font-size: 20px;
+    color: green;
+}
